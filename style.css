@@ -1,9 +1,210 @@
 body{
-    background-color: #fffbe6;
+    background-color:#e7f7fd;
   }
   .bg1st{
       background: linear-gradient(130deg, #ffec80, #fffbe6);
       opacity: 0.9;
+  }
+  
+  .bg1ab{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 5s;
+    background-position: top right;
+    animation-name:animate;
+    animation-direction:alternate-reverse ;
+    animation-duration:30s;
+    animation-fill-mode:forwards ;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+  0%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+  }
+  20%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/2ndbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+  }
+  40%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+  }
+  60%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/5thbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+  }
+  80%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/6thbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100%{
+    background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 2s;
+  
+  }
+}
+
+  
+  
+  @media  (max-width:700px){
+    .bg1d{
+      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 5s;
+      height: 70vh;
+      padding: 20px;
+      background-position: top right;
+      animation-name:animate;
+      animation-direction:alternate-reverse ;
+      animation-duration:30s;
+      animation-fill-mode:forwards ;
+      animation-iteration-count:infinite ;
+      animation-play-state:running ;
+      animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes animate{
+    0%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    20%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/2ndbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    40%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    60%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/5thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    80%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/6thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    100%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+  }
+    
+      .con1{
+         color: #fff;
+         background: linear-gradient(130deg, #998200, #fff099); 
+      }
+      .nav1{
+          text-decoration: none;
+          color: #fff;
+          font-weight: 600;
+          padding: 3px 3px;
+          font-size: x-small;
+          opacity: 0.9;
+      }
+      .nav1:hover{
+          color: gray;
+  }
+  .logo{
+     background-image: url('img/bold.jfif');
+     border-radius: 35px;
+     }
+     .mna{
+       display: none;
+     }
+     .mnbb{
+      display: none;
+    }
+    .mnbc{
+      font-weight: 700;
+      text-decoration: none;
+      color: #11ade8;
+      font-size: small;
+      transition: 0.4s;
+      background-color: #e6ffe6;
+      padding: 15px;
+      border-radius: 25px;
+     }
+     .bg1a{
+      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      transition: 5s;
+      background-position: top right;
+      animation-name:animate;
+      animation-direction:alternate-reverse ;
+      animation-duration:30s;
+      animation-fill-mode:forwards ;
+      animation-iteration-count:infinite ;
+      animation-play-state:running ;
+      animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes animate{
+    0%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    20%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/2ndbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    40%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    60%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/5thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    80%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/6thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    100%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
   }
   .conpart{
     background-color: #fff;
@@ -14,14 +215,14 @@ body{
     color: #fff;
   }
   .form-control{
-    border: black 1px solid;
+    border: #021218 1px solid;
     padding: 10px;
     background: none;
     outline: none;
-    background:#fff4b3;
-    border-radius: 25px;
+    background:#e7f7fd;
     font-weight: 500;
     transition: .5s;
+    border-radius: 25px;
   }
   
   label{
@@ -48,6 +249,8 @@ body{
   
   
   @media  (max-width:700px){
+   
+   
       .con1{
          color: #fff;
          background: linear-gradient(130deg, #998200, #fff099); 
@@ -1249,7 +1452,7 @@ body{
     background-repeat: no-repeat;
   }
   .loginbody{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/loginimg.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -1271,6 +1474,7 @@ body{
     color: white;
    }
   }
+}
   
   
   
@@ -1295,6 +1499,60 @@ body{
   
   
   @media  (min-width:600px){
+    .bg1d{
+      background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: 5s;
+      background-position: top right;
+      animation-name:animate;
+      padding: 80px;
+      animation-direction:alternate-reverse ;
+      animation-duration:30s;
+      animation-fill-mode:forwards ;
+      animation-iteration-count:infinite ;
+      animation-play-state:running ;
+      animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes animate{
+    0%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/1stbga.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    20%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/2ndbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    40%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/sign.jpeg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    60%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/5thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+    80%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/6thbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    100%{
+      background:linear-gradient(rgba(1, 3, 0, 0.5), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      transition: 2s;
+    }
+  }
+    
       .con1{
          color: #fff;
          background: linear-gradient(130deg, #998200, #fff099); 
@@ -2415,10 +2673,10 @@ body{
     background-repeat: no-repeat;
   }
   .loginbody{
-    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/loginimg.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/3rsbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 10px;
+    padding: 100px;
   }
   .mlcon{
     background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/loginimg.jpg');
